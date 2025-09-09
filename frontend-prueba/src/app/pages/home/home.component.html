@@ -1,0 +1,42 @@
+<div class="min-h-screen bg-gray-100 p-6">
+  <h1 class="text-3xl font-bold text-gray-800 mb-6 text-center">
+    Lista de Usuarios
+  </h1>
+  
+    <!-- Cargando -->
+    <div *ngIf="loading" class="text-gray-600">Cargando usuarios...</div>
+  
+    <!-- Tabla -->
+    <div *ngIf="!loading && users.length > 0" class="overflow-x-auto">
+      <table class="min-w-full bg-white rounded-2xl shadow-md">
+        <thead>
+          <tr class="bg-gray-200 text-left">
+            <th class="py-3 px-4">ID</th>
+            <th class="py-3 px-4">Password</th>
+            <th class="py-3 px-4">Email</th>
+            <th class="py-3 px-4">Username</th>
+            <th class="py-3 px-4">firstName</th>
+            <th class="py-3 px-4">lastName</th>
+            <th class="py-3 px-4">gender</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let user of users" class="border-b hover:bg-gray-50">
+            <td class="py-2 px-4">{{ user.id }}</td>
+            <td class="py-2 px-4">{{ user.password }}</td>
+            <td class="py-2 px-4">{{ user.email }}</td>
+            <td class="py-2 px-4">{{ user.username }}</td>
+            <td class="py-2 px-4">{{ user.firstName }}</td>
+            <td class="py-2 px-4">{{ user.lastName }}</td>
+            <td class="py-2 px-4">{{ user.gender }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  
+    <!-- Sin usuarios -->
+    <p *ngIf="!loading && users.length === 0" class="text-gray-600 mt-4">
+      No hay usuarios disponibles.
+    </p>
+  </div>
+  

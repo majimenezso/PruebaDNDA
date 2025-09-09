@@ -1,0 +1,16 @@
+@PruebaTecnica.Api_HostAddress = http://localhost:5137
+
+### Login
+POST {{PruebaTecnica.Api_HostAddress}}/api/pruebatecnica/users/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "omorton2",
+  "password": "cC6)CDg8c"
+}
+
+### Get Users (requiere JWT)
+GET {{PruebaTecnica.Api_HostAddress}}/api/pruebatecnica/users
+Accept: application/json
+Authorization: Bearer {{jwt_token}}

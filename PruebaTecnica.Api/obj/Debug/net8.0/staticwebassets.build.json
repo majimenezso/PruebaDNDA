@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "NuquI2lp21XA+YD+qZP2SQZP5qXIwcpwrytIb4pFadY=",
+  "Source": "PruebaTecnica.Api",
+  "BasePath": "_content/PruebaTecnica.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

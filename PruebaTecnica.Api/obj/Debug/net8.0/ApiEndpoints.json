@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "PruebaTecnica.Api.Controllers.UsersController",
+    "Method": "GetUsers",
+    "RelativePath": "api/pruebatecnica/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnica.Api.Controllers.UsersController",
+    "Method": "Login",
+    "RelativePath": "api/pruebatecnica/users/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "PruebaTecnica.Api.Models.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
