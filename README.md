@@ -9,7 +9,7 @@ Proyecto fullstack que integra un **Backend en .NET 8** con una **SPA en Angular
 - [Node.js 18+](https://nodejs.org/)
 - [Angular CLI 19](https://angular.io/cli)
 - [MySQL 8.x](https://dev.mysql.com/downloads/mysql/)
-- [XAMPP](https://www.apachefriends.org/es/index.html) con MySQL 8.0 *(opcional)*
+- [XAMPP](https://www.apachefriends.org/es/index.html) con MySQL 8.0
 - VS Code o [Cursor](https://cursor.so/)
 - Docker *(opcional para levantar MySQL con contenedor)*
 
